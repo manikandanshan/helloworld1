@@ -1,0 +1,17 @@
+login:gits
+password:gits123
+
+Run Jenkins
+$sudo /etc/init.d/jenkins start
+Url:192.168.1.200:8081
+
+Apache:
+192.168.1.200:80
+
+Run Mysql:
+mysql -u root -p
+
+Run Tomcat:
+sudo ./bin/catalina.sh start
+url:127.0.0.1:8080
+Manage app login:admin password:guru2016
